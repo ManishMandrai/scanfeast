@@ -19,10 +19,11 @@ function RestaurantDashboard() {
 
   const handleGenerateQRCode = () => {
     const tableNumber = 1; // Example table number
-    const vercelUrl = "https://your-project-name.vercel.app"; // Replace with your Vercel URL
-    const url = `${vercelUrl}/order?table=${tableNumber}`;
+    const netlifyUrl = "https://scanfeast.netlify.app"; // Replace with your Netlify URL
+    const url = `${netlifyUrl}/order?table=${tableNumber}`;
     setQrCodeUrl(url);
   };
+  
   
   
 
